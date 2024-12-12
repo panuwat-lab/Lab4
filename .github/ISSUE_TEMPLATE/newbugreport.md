@@ -1,71 +1,54 @@
 ---
 name: Bug Report
-description: File a bug report
 about: Report a bug 
 title: "[Bug]: "
 labels: ["bug", "triage"]
 projects: ["octo-org/1", "octo-org/44"]
 assignees: 
   - octocat
-body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
-  - type: input
-    id: contact
-    attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
-  - type: textarea
-    id: what-happened
-    attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
-    validations:
-      required: true
-  - type: dropdown
-    id: version
-    attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-      default: 0
-    validations:
-      required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
-  - type: textarea
-    id: logs
-    attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will 
-        be automatically formatted into code, so no need for backticks.
-      render: shell
-  - type: checkboxes
-    id: code-of-conduct
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of 
-        Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-      required: true
 ---
 
+# Bug Report
 
+Thanks for taking the time to fill out this bug report!
+
+## Contact Details
+How can we get in touch with you if we need more info?  
+(Example: `email@example.com`)
+
+---
+
+## What happened?
+Also tell us, what did you expect to happen?  
+Tell us what you see!  
+(A bug happened!)
+
+---
+
+## Version
+What version of our software are you running?  
+- [ ] 1.0.2 (Default)  
+- [ ] 1.0.3 (Edge)
+
+---
+
+## Browsers
+What browsers are you seeing the problem on?  
+- [ ] Firefox  
+- [ ] Chrome  
+- [ ] Safari  
+- [ ] Microsoft Edge
+
+---
+
+## Relevant Log Output
+Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.  
+\```
+Paste logs here
+\```
+
+---
+
+## Code of Conduct
+By submitting this issue, you agree to follow our [Code of Conduct](https://example.com).  
+- [ ] I agree to follow this project's Code of Conduct
