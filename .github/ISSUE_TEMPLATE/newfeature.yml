@@ -27,7 +27,7 @@ body:
         - New Feature
         - Improvement
         - Other
-      default: New Feature
+      default: 0
     validations:
       required: true
 
@@ -41,7 +41,7 @@ body:
         - macOS
         - Linux
         - Other
-      default: Selections
+      default: 0
     validations:
       required: true
 
@@ -54,5 +54,3 @@ body:
     validations:
       required: true
 ---
-
-
